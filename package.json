@@ -1,0 +1,49 @@
+{
+  "name": "arc-x-kea-open-pool-contracts",
+  "version": "1.0.0",
+  "description": "KEA Credit open pool contracts deployed on Arc Network",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
+    "node": "hardhat node",
+    "deploy:avax:native": "hardhat run scripts/deploy-avalanche-fuji-native-usdc.js --network avalancheFuji",
+    "configure:avax:native": "hardhat run scripts/configure-avalanche-fuji-native-usdc.js --network avalancheFuji",
+    "flow:avax:native": "hardhat run scripts/unified-test-flow-avalanche-fuji-native-usdc.js --network avalancheFuji",
+    "verify:avax": "hardhat verify --network avalancheFuji",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "defi",
+    "lending",
+    "avalanche-fuji",
+    "hardhat",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "typechain": "^8.3.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}

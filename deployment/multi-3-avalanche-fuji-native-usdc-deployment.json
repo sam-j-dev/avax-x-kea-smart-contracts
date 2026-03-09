@@ -1,0 +1,21 @@
+{
+  "network": "Avalanche Fuji C-Chain Testnet",
+  "chainId": 43113,
+  "timestamp": "2026-03-07T09:06:58.472Z",
+  "deployer": "0xfCd9C810F83f7E3255Eb4F41ff9A6310146117B6",
+  "nativeUSDC": "0x5425890298aed601595a70AB815c96711a31Bc65",
+  "contracts": {
+    "LendingPool": "0x05E82E822e2432B5D2E78F78C05669bc68a166aa",
+    "CreditManager": "0xc655d25d8e0372A206b47bBaF3D0ADe12938A13C",
+    "InterestRateModel": "0x2D39aA728da2A47Dda359DE98C4d72310B1F6c85",
+    "LoanDocumentationNFT": "0x0Cc2065Ebde4a6e126Cd497003e6f486F250D25f",
+    "RequestManager": "0x055021D2B2E9DaeA12cd69998723AaDa5526B6db",
+    "RepaymentProcessor": "0xA5776326E633Fe73E1E1f26bFa82b89fbF6Aa800",
+    "DefaultManager": "0x672f202d9B33C420DB7BC776C4d1AE6DEF31D3C9",
+    "YieldOptimizer": "0x1E3F7F4115eF25e79Ce794fd3D630c0d4eEB526a"
+  },
+  "config": {
+    "poolMaxCap": "1000000000000",
+    "noEarlyWithdrawalPenalty": true
+  }
+}

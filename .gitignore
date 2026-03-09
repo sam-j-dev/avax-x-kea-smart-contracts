@@ -1,0 +1,25 @@
+# Foundry / Forge
+cache/
+out/
+broadcast/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if using any npm packages)
+node_modules/
+package-lock.json
+
+open-pool-arch.md
+artifacts/
