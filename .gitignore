@@ -23,3 +23,5 @@ package-lock.json
 
 open-pool-arch.md
 artifacts/
+
+*.mmd
